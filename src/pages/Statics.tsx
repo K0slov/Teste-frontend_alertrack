@@ -1,4 +1,5 @@
 import Devices from "../components/devices";
+import GraphCalendar from "../components/graphCalendar";
 import GraphCircles from "../components/graphCircles";
 import GraphLine from "../components/graphLine";
 
@@ -12,11 +13,14 @@ export default function Statics() {
                 <GraphLine />
             </div>
             <div className="
-                flex items-center m-2 xl:w-3/5 xl:flex-row xl:h-2/5
-                flex-col-reverse w-full
+                flex items-center xl:m-2 xl:w-3/5 xl:flex-row xl:h-2/5
+                flex-col-reverse w-full mt-2
                 ">
                 <GraphCircles />
                 <Devices />
+            </div>
+            <div className="flex justify-center m-2 w-full xl:h-2/5 ">
+                <GraphCalendar />
             </div>
         </div>
     )

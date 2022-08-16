@@ -21,7 +21,7 @@ export default function GraphLine() {
                 h-64
                 ">
                <Chart
-                    chartType="Line"
+                    chartType="AreaChart"
                     width="100%"
                     height="250px"
                     data={data}
