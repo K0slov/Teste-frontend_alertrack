@@ -4,8 +4,8 @@ import { dataCalendar, optionsCalendar } from "../data/fakeData";
 export default function GraphCalendar() {
     return (
         <div className="
-        flex flex-col bg-white p-2 m-1 items-center justify-center rounded-md shadow-lg touch-pan-x xl:w-3/5 h-auto
-        w-5/6
+        flex flex-col bg-white p-2 m-1 items-center justify-center rounded-md shadow-lg xl:touch-auto xl:w-3/5 h-auto
+        w-5/6 touch-pan-x
         ">
             <Chart
                 chartType="Calendar"
