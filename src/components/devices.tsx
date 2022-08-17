@@ -16,47 +16,47 @@ export default function Devices() {
             </div>
             
             <div className="flex flex-col justify-around w-full px-4" >
-                    <p className="flex justify-between items-center my-1 underline-offset-1 w-full h-auto rounded-md hover:bg-slate-100" >
+                    <p className="flex justify-between items-center my-1 w-full h-auto rounded-md hover:bg-slate-100" >
                         SacDigital 
                         <div className="flex rounded-full p-1 items-center right-0 lg:hover:w-72 lg:hover:bg-green-100 lg:hover:-mr-64 lg:hover:duration-75 text-transparent lg:hover:text-black ">
-                            <CheckCircle className="inline rounded-full text-white bg-green-600 mr-5 hover:animate-spin" size={30} />
-                            <span className="inline -mr-24">Operando</span>
+                            <CheckCircle className="inline rounded-full text-white bg-green-600 lg:mr-5 mr-0 hover:animate-spin" size={30} />
+                            <span className="xl:inline xl:-mr-24 hidden mr-0">Operando</span>
                         </div>
                     </p>
 
-                    <p className="flex justify-between items-center my-1 underline-offset-1 w-full h-auto rounded-md hover:bg-slate-100" >
+                    <p className="flex justify-between items-center my-1 w-full h-auto rounded-md hover:bg-slate-100" >
                         Panfleto Online
                         <div className="flex rounded-full p-1 items-center right-0 lg:hover:w-72 lg:hover:bg-green-100 lg:hover:-mr-64 lg:hover:duration-75 text-transparent lg:hover:text-black ">
-                            <CheckCircle className="inline rounded-full text-white bg-green-600 mr-5 hover:animate-spin" size={30} />
-                            <span className="inline -mr-24">Operando</span>
+                            <CheckCircle className="inline rounded-full text-white bg-green-600 lg:mr-5 mr-0 hover:animate-spin" size={30} />
+                            <span className="xl:inline xl:-mr-24 hidden mr-0">Operando</span>
                         </div>
                     </p>
-                    <p className="flex justify-between items-center my-1 underline-offset-1 w-full h-auto rounded-md hover:bg-slate-100" >
+                    <p className="flex justify-between items-center my-1 w-full h-auto rounded-md hover:bg-slate-100" >
                         SMSideal
                         <div className="flex rounded-full p-1 items-center right-0 lg:hover:w-72 lg:hover:bg-red-200 lg:hover:-mr-64 lg:hover:duration-75 text-transparent lg:hover:text-black">
-                            <Gear className="inline rounded-full text-white bg-red-600 mr-6 hover:animate-spin" size={30} />
-                            <span className="inline -mr-36">em manutenção</span>
+                            <Gear className="inline rounded-full text-white bg-red-600 lg:mr-6 mr-0 hover:animate-spin" size={30} />
+                            <span className="xl:inline xl:-mr-36 hidden mr-0">em manutenção</span>
                         </div>
                     </p>
-                    <p className="flex justify-between items-center my-1 underline-offset-1 w-full h-auto rounded-md hover:bg-slate-100" >
+                    <p className="flex justify-between items-center my-1 w-full h-auto rounded-md hover:bg-slate-100" >
                         Consulta ideal
                         <div className="flex rounded-full p-1 items-center right-0 lg:hover:w-72 lg:hover:bg-green-100 lg:hover:-mr-64 lg:hover:duration-75 text-transparent lg:hover:text-black ">
-                            <CheckCircle className="inline rounded-full text-white bg-green-600 mr-5 hover:animate-spin" size={30} />
-                            <span className="inline -mr-24">Operando</span>
+                            <CheckCircle className="inline rounded-full text-white bg-green-600 lg:mr-5 mr-0 hover:animate-spin" size={30} />
+                            <span className="xl:inline xl:-mr-24 hidden mr-0">Operando</span>
                         </div>
                     </p>
-                    <p className="flex justify-between items-center my-1 underline-offset-1 w-full h-auto rounded-md hover:bg-slate-100" >
+                    <p className="flex justify-between items-center my-1 w-full h-auto rounded-md hover:bg-slate-100" >
                         WhatsApp
                         <div className="flex rounded-full p-1 items-center right-0 lg:hover:w-72 lg:hover:bg-green-100 lg:hover:-mr-64 lg:hover:duration-75 text-transparent lg:hover:text-black ">
-                            <CheckCircle className="inline rounded-full text-white bg-green-600 mr-5 hover:animate-spin" size={30} />
-                            <span className="inline -mr-24">Operando</span>
+                            <CheckCircle className="inline rounded-full text-white bg-green-600 lg:mr-5 mr-0 hover:animate-spin" size={30} />
+                            <span className="xl:inline xl:-mr-24 hidden mr-0">Operando</span>
                         </div>
                     </p>
-                    <p className="flex justify-between items-center my-1 underline-offset-1 w-full h-auto rounded-md hover:bg-slate-100" >
+                    <p className="flex justify-between items-center my-1 w-full h-auto rounded-md hover:bg-slate-100" >
                         WhatsApp Business API
                         <div className="flex rounded-full p-1 items-center right-0 lg:hover:w-72 lg:hover:bg-yellow-100 lg:hover:-mr-64 lg:hover:duration-75 text-transparent lg:hover:text-black">
-                            <WarningCircle className="inline rounded-full text-white bg-yellow-600 mr-5 hover:animate-spin" size={30} />
-                            <span className="inline -mr-20">Instável</span>
+                            <WarningCircle className="inline rounded-full text-white bg-yellow-600 lg:mr-5 mr-0 hover:animate-spin" size={30} />
+                            <span className="xl:inline xl:-mr-20 hidden mr-0">Instável</span>
                         </div>
                     </p>
             </div>
